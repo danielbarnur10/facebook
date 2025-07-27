@@ -1,0 +1,62 @@
+# Node.js
+node_modules/
+dist/
+build/
+.env
+.env.local
+.env.*.local
+.nyc_output/
+coverage/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS
+.DS_Store
+Thumbs.db
+
+# React/Next build output
+.next/
+out/
+.cache/
+turbo/
+
+# Logs
+logs
+*.log
+debug.log
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Git
+*.orig
+
+# Optional lock files
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Tests
+jest-cache/
+jest-coverage/
+coverage/
+__snapshots__/
+
+# React Native
+.expo/
+*.keystore
+
+# Misc
+*.tgz
+*.gz
+*.zip
